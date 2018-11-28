@@ -1,0 +1,9 @@
+﻿			!!!!Ne Feledd!!!
+	Az ERŐ Itala visszaállítja az életedet(Health) a kezdeti
+értékre és bármikor felhasználhatod.
+	Az ÜGYESSÉG Itala visszaállítja az ügyességedet(Dexterity)
+a kezdeti értékre és bármikor felhasználhatod.
+	A SZERENCSE Itala visszaállítja a szerencsédet(Luck) a
+kezdeti értékre ésbármikor felhasználhatod.
+		   Csak egyet vihetsz magaddal,
+	       		Válassz bölcsen!

@@ -1,0 +1,16 @@
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\bin\Debug\KalandJatekKockazat.exe.config
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\bin\Debug\KalandJatekKockazat.exe
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\bin\Debug\KalandJatekKockazat.pdb
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Fomenu.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Properties.Resources.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.csproj.GenerateResource.cache
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.csproj.CoreCompileInputs.cache
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.exe
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.pdb
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Szabalyok.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Stats.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.csprojAssemblyReference.cache
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Bevezeto.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Inventory.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.Jatek.resources
+C:\Users\Gyuszi\source\repos\KalandJatekKockazat\KalandJatekKockazat\obj\Debug\KalandJatekKockazat.GameRulesToBut.resources
