@@ -1,0 +1,13 @@
+Biztoskezû Kevin tanácsa értékesnek tûnik. Nem messze, Ariontól északra fekszik a hatalmas Holt tó, annak északi partján pedig Fakóvölgy. Ha onnan észak-északkeletnek tartasz a Dárdanyél síkságon át, és keletrõl kerülöd meg a Gonosz Mocsarat, a dombokon és hegyeken át könnyen elérheted célodat, a Krill Garnash öt hófödte felhõkbe veszõ csúcsát. 
+Néhány napi könnyû út után - közben gyakran találtál bõvizû forrást és élelmet, így nem kellett az Élelmiszerkészletedbõl fogyasztanod - eléred a Holt tó déli partját. Tudomásod szerint ez a civilizáció pereme. Ezen túl Arion népe már nem ismeri a járást. A Holt tavon emberemlékezet óta nem kelt át senki. Az emberek úgy tartják, hogy a tó mélye elmondhatatlan rémségeket rejt, és a tó titokzatos és különös áramlatai a nyugodt, mozdulatlan vizet hirtelen örvényekké és toronymagas hullámokká változtatják. Mindazonáltal a legrövidebb út a tavon át vezet. 
+
+|
+
+[1]Hõs harcosként tutajt építesz, és áthajózol a tavon.
+*109
+
+[2]Megkerülöd keletrõl, a dombokon át.
+*245
+
+[3]Nyugatról kerülöd meg a tavat az Affen erdõn át.
+*21
