@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace KalandJatekKockazat
 {
@@ -15,9 +16,14 @@ namespace KalandJatekKockazat
         public Jatek()
         {
             InitializeComponent();
+            //életkirajzolás
             HealthGameBox.Text = StatNums.jatekos.Health.ToString();
-        }
 
+            //Textbox feltöltés
+
+
+        }
+        //választások működtetése
         private void button1_Click(object sender, EventArgs e)
         {
             //Inventory
@@ -35,6 +41,7 @@ namespace KalandJatekKockazat
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Szabálykönyv
             GameRulesToBut gameRulesToButForm = new GameRulesToBut();
             gameRulesToButForm.Show();
         }

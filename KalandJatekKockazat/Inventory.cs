@@ -16,6 +16,7 @@ namespace KalandJatekKockazat
         public Inventory()
         {
             InitializeComponent();
+            //Értékkiírások előzőleg generált értékekből
 
             HealthInv.Text = StatNums.jatekos.Health.ToString();
             DexterityInv.Text = StatNums.jatekos.Dexterity.ToString();

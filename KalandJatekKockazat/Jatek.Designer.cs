@@ -35,11 +35,19 @@
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.HealthGameBox = new System.Windows.Forms.TextBox();
+            this.Valasztas1 = new System.Windows.Forms.Button();
+            this.Valasztas2 = new System.Windows.Forms.Button();
+            this.Valasztas3 = new System.Windows.Forms.Button();
+            this.Valasztas4 = new System.Windows.Forms.Button();
             this.JatekPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // JatekPanel
             // 
+            this.JatekPanel.Controls.Add(this.Valasztas4);
+            this.JatekPanel.Controls.Add(this.Valasztas3);
+            this.JatekPanel.Controls.Add(this.Valasztas2);
+            this.JatekPanel.Controls.Add(this.Valasztas1);
             this.JatekPanel.Controls.Add(this.JatekText);
             this.JatekPanel.Location = new System.Drawing.Point(0, 0);
             this.JatekPanel.MaximumSize = new System.Drawing.Size(650, 560);
@@ -117,6 +125,50 @@
             this.HealthGameBox.TabIndex = 5;
             this.HealthGameBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // Valasztas1
+            // 
+            this.Valasztas1.BackColor = System.Drawing.Color.Firebrick;
+            this.Valasztas1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Valasztas1.Location = new System.Drawing.Point(12, 426);
+            this.Valasztas1.Name = "Valasztas1";
+            this.Valasztas1.Size = new System.Drawing.Size(282, 31);
+            this.Valasztas1.TabIndex = 1;
+            this.Valasztas1.Text = "Választás 1";
+            this.Valasztas1.UseVisualStyleBackColor = false;
+            // 
+            // Valasztas2
+            // 
+            this.Valasztas2.BackColor = System.Drawing.Color.Firebrick;
+            this.Valasztas2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Valasztas2.Location = new System.Drawing.Point(355, 426);
+            this.Valasztas2.Name = "Valasztas2";
+            this.Valasztas2.Size = new System.Drawing.Size(282, 31);
+            this.Valasztas2.TabIndex = 2;
+            this.Valasztas2.Text = "Választás 2";
+            this.Valasztas2.UseVisualStyleBackColor = false;
+            // 
+            // Valasztas3
+            // 
+            this.Valasztas3.BackColor = System.Drawing.Color.Firebrick;
+            this.Valasztas3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Valasztas3.Location = new System.Drawing.Point(12, 484);
+            this.Valasztas3.Name = "Valasztas3";
+            this.Valasztas3.Size = new System.Drawing.Size(282, 31);
+            this.Valasztas3.TabIndex = 3;
+            this.Valasztas3.Text = "Választás 3";
+            this.Valasztas3.UseVisualStyleBackColor = false;
+            // 
+            // Valasztas4
+            // 
+            this.Valasztas4.BackColor = System.Drawing.Color.Firebrick;
+            this.Valasztas4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Valasztas4.Location = new System.Drawing.Point(355, 484);
+            this.Valasztas4.Name = "Valasztas4";
+            this.Valasztas4.Size = new System.Drawing.Size(282, 31);
+            this.Valasztas4.TabIndex = 4;
+            this.Valasztas4.Text = "Választás 4";
+            this.Valasztas4.UseVisualStyleBackColor = false;
+            // 
             // Jatek
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
@@ -153,5 +205,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox HealthGameBox;
+        private System.Windows.Forms.Button Valasztas4;
+        private System.Windows.Forms.Button Valasztas3;
+        private System.Windows.Forms.Button Valasztas2;
+        private System.Windows.Forms.Button Valasztas1;
     }
 }

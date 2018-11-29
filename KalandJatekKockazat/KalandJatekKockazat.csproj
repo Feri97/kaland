@@ -52,6 +52,12 @@
     <Compile Include="Bevezeto.Designer.cs">
       <DependentUpon>Bevezeto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fight.Designer.cs">
+      <DependentUpon>Fight.cs</DependentUpon>
+    </Compile>
     <Compile Include="GameRulesToBut.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </Compile>
     <EmbeddedResource Include="Bevezeto.resx">
       <DependentUpon>Bevezeto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fight.resx">
+      <DependentUpon>Fight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fomenu.resx">
       <DependentUpon>Fomenu.cs</DependentUpon>

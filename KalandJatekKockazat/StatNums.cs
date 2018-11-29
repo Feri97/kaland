@@ -19,12 +19,14 @@ namespace KalandJatekKockazat
         static public string PotType;
         static public KezdoErtek KezdoErtek = new KezdoErtek();
     }
+    //nem lehet túllépni!!!
     public class KezdoErtek
     {
         public int KezdoHP;
         public int KezdoDex;
         public int KezdoLuck;
     }
+    //minden jellemző ami lehet játékoson
     public class Jatekos
     {
         public int Health = 0;
@@ -51,14 +53,14 @@ namespace KalandJatekKockazat
         public Item ChoseItem = new Item();
         public int Luck;
     }
-
+    //ellenségek 
     public class Monster
     {
         public int Health;
         public int Dexterity;
     }
 
-
+    //itemek
     public class Item
     {
         public string Name;
