@@ -32,6 +32,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.InventoryExit = new System.Windows.Forms.Button();
             this.InventoryPanel = new System.Windows.Forms.Panel();
+            this.FoodDb = new System.Windows.Forms.TextBox();
             this.WeaponBonus = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.LuckInv = new System.Windows.Forms.TextBox();
@@ -46,7 +47,6 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.WeaponName = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.FoodDb = new System.Windows.Forms.TextBox();
             this._PotionInv = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
@@ -115,6 +115,17 @@
             this.InventoryPanel.Size = new System.Drawing.Size(650, 560);
             this.InventoryPanel.TabIndex = 0;
             // 
+            // FoodDb
+            // 
+            this.FoodDb.BackColor = System.Drawing.Color.Firebrick;
+            this.FoodDb.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FoodDb.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.FoodDb.Location = new System.Drawing.Point(539, 169);
+            this.FoodDb.Name = "FoodDb";
+            this.FoodDb.ReadOnly = true;
+            this.FoodDb.Size = new System.Drawing.Size(41, 26);
+            this.FoodDb.TabIndex = 3;
+            // 
             // WeaponBonus
             // 
             this.WeaponBonus.BackColor = System.Drawing.Color.Firebrick;
@@ -122,6 +133,7 @@
             this.WeaponBonus.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.WeaponBonus.Location = new System.Drawing.Point(371, 346);
             this.WeaponBonus.Name = "WeaponBonus";
+            this.WeaponBonus.ReadOnly = true;
             this.WeaponBonus.Size = new System.Drawing.Size(142, 26);
             this.WeaponBonus.TabIndex = 17;
             this.WeaponBonus.Text = "Bonus Effect";
@@ -133,6 +145,7 @@
             this.textBox10.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox10.Location = new System.Drawing.Point(371, 314);
             this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
             this.textBox10.Size = new System.Drawing.Size(142, 26);
             this.textBox10.TabIndex = 16;
             this.textBox10.Text = "Bonus effect:";
@@ -144,6 +157,7 @@
             this.LuckInv.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.LuckInv.Location = new System.Drawing.Point(472, 105);
             this.LuckInv.Name = "LuckInv";
+            this.LuckInv.ReadOnly = true;
             this.LuckInv.Size = new System.Drawing.Size(41, 26);
             this.LuckInv.TabIndex = 15;
             // 
@@ -154,6 +168,7 @@
             this.DexterityInv.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.DexterityInv.Location = new System.Drawing.Point(472, 73);
             this.DexterityInv.Name = "DexterityInv";
+            this.DexterityInv.ReadOnly = true;
             this.DexterityInv.Size = new System.Drawing.Size(41, 26);
             this.DexterityInv.TabIndex = 14;
             // 
@@ -164,6 +179,7 @@
             this.HealthInv.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.HealthInv.Location = new System.Drawing.Point(472, 41);
             this.HealthInv.Name = "HealthInv";
+            this.HealthInv.ReadOnly = true;
             this.HealthInv.Size = new System.Drawing.Size(41, 26);
             this.HealthInv.TabIndex = 13;
             // 
@@ -174,6 +190,7 @@
             this.textBox6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox6.Location = new System.Drawing.Point(371, 105);
             this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(78, 26);
             this.textBox6.TabIndex = 12;
             this.textBox6.Text = "Luck";
@@ -185,6 +202,7 @@
             this.textBox4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox4.Location = new System.Drawing.Point(371, 73);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(78, 26);
             this.textBox4.TabIndex = 11;
             this.textBox4.Text = "Dexterity";
@@ -196,6 +214,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox2.Location = new System.Drawing.Point(371, 41);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(78, 26);
             this.textBox2.TabIndex = 10;
             this.textBox2.Text = "Health ";
@@ -231,6 +250,7 @@
             this.PotionDb.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.PotionDb.Location = new System.Drawing.Point(539, 137);
             this.PotionDb.Name = "PotionDb";
+            this.PotionDb.ReadOnly = true;
             this.PotionDb.Size = new System.Drawing.Size(41, 26);
             this.PotionDb.TabIndex = 7;
             // 
@@ -241,6 +261,7 @@
             this.textBox5.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox5.Location = new System.Drawing.Point(371, 169);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(209, 26);
             this.textBox5.TabIndex = 6;
             this.textBox5.Text = "Food left:";
@@ -252,6 +273,7 @@
             this.WeaponName.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.WeaponName.Location = new System.Drawing.Point(371, 282);
             this.WeaponName.Name = "WeaponName";
+            this.WeaponName.ReadOnly = true;
             this.WeaponName.Size = new System.Drawing.Size(142, 26);
             this.WeaponName.TabIndex = 5;
             this.WeaponName.Text = "Weapon Name";
@@ -263,19 +285,10 @@
             this.textBox3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox3.Location = new System.Drawing.Point(371, 250);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(142, 26);
             this.textBox3.TabIndex = 4;
             this.textBox3.Text = "Weapon Equipped:";
-            // 
-            // FoodDb
-            // 
-            this.FoodDb.BackColor = System.Drawing.Color.Firebrick;
-            this.FoodDb.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FoodDb.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.FoodDb.Location = new System.Drawing.Point(539, 169);
-            this.FoodDb.Name = "FoodDb";
-            this.FoodDb.Size = new System.Drawing.Size(41, 26);
-            this.FoodDb.TabIndex = 3;
             // 
             // _PotionInv
             // 
@@ -284,6 +297,7 @@
             this._PotionInv.ForeColor = System.Drawing.Color.WhiteSmoke;
             this._PotionInv.Location = new System.Drawing.Point(371, 137);
             this._PotionInv.Name = "_PotionInv";
+            this._PotionInv.ReadOnly = true;
             this._PotionInv.Size = new System.Drawing.Size(209, 26);
             this._PotionInv.TabIndex = 2;
             this._PotionInv.Text = "potion left: ";

@@ -116,6 +116,7 @@
             this.StatmenuErtesito.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.StatmenuErtesito.Location = new System.Drawing.Point(216, 191);
             this.StatmenuErtesito.Name = "StatmenuErtesito";
+            this.StatmenuErtesito.ReadOnly = true;
             this.StatmenuErtesito.Size = new System.Drawing.Size(410, 256);
             this.StatmenuErtesito.TabIndex = 9;
             this.StatmenuErtesito.Text = "";
@@ -150,6 +151,7 @@
             this.LuckBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.LuckBox.Location = new System.Drawing.Point(308, 141);
             this.LuckBox.Name = "LuckBox";
+            this.LuckBox.ReadOnly = true;
             this.LuckBox.Size = new System.Drawing.Size(43, 26);
             this.LuckBox.TabIndex = 6;
             // 
@@ -160,6 +162,7 @@
             this.DexBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.DexBox.Location = new System.Drawing.Point(308, 94);
             this.DexBox.Name = "DexBox";
+            this.DexBox.ReadOnly = true;
             this.DexBox.Size = new System.Drawing.Size(43, 26);
             this.DexBox.TabIndex = 5;
             // 
@@ -170,8 +173,10 @@
             this.HealthBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.HealthBox.Location = new System.Drawing.Point(308, 46);
             this.HealthBox.Name = "HealthBox";
+            this.HealthBox.ReadOnly = true;
             this.HealthBox.Size = new System.Drawing.Size(43, 26);
             this.HealthBox.TabIndex = 4;
+            this.HealthBox.TextChanged += new System.EventHandler(this.HealthBox_TextChanged);
             // 
             // textBox3
             // 
@@ -180,6 +185,7 @@
             this.textBox3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox3.Location = new System.Drawing.Point(216, 141);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(135, 26);
             this.textBox3.TabIndex = 3;
             this.textBox3.Text = "Luck:";
@@ -191,6 +197,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox2.Location = new System.Drawing.Point(216, 94);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(135, 26);
             this.textBox2.TabIndex = 2;
             this.textBox2.Text = "Dexterity:";
@@ -202,6 +209,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.textBox1.Location = new System.Drawing.Point(216, 46);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(135, 26);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Health:";
@@ -218,7 +226,7 @@
             this.Next.BackColor = System.Drawing.Color.Firebrick;
             this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Next.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Next.Location = new System.Drawing.Point(656, 46);
+            this.Next.Location = new System.Drawing.Point(656, 47);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(116, 30);
             this.Next.TabIndex = 1;

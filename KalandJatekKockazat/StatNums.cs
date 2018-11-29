@@ -8,6 +8,7 @@ namespace KalandJatekKockazat
 {
     static class StatNums
     {
+        static public Monster Enemy = new Monster();
         static public Jatekos jatekos = new Jatekos();
         static public Dictionary<string, Item> Items = new Dictionary<string, Item>();
         static public Random rnd = new Random();
@@ -49,6 +50,12 @@ namespace KalandJatekKockazat
 
         public Item ChoseItem = new Item();
         public int Luck;
+    }
+
+    public class Monster
+    {
+        public int Health;
+        public int Dexterity;
     }
 
 

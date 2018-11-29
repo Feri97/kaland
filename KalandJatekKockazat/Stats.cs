@@ -25,6 +25,10 @@ namespace KalandJatekKockazat
 
             StatmenuErtesito.Text = streamReader.ReadToEnd();
 
+            Next.Enabled = false;
+            HealthPotBut.Enabled = false;
+            DexPotBut.Enabled = false;
+            LuckPotBut.Enabled = false;
             //feltétel kattinthatóságra
             
 
@@ -56,6 +60,11 @@ namespace KalandJatekKockazat
             StatNums.KezdoErtek.KezdoDex = StatNums.jatekos.Dexterity;
             StatNums.KezdoErtek.KezdoLuck = StatNums.jatekos.Luck;
 
+            HealthPotBut.Enabled = true;
+            DexPotBut.Enabled = true;
+            LuckPotBut.Enabled = true;
+            ThrowBut.Enabled = false;
+
             //Item kard = new Item();
             //kard.Name = "Iszonyatosan nagy kard";
             //kard.BonusDexterity = 2;
@@ -81,6 +90,7 @@ namespace KalandJatekKockazat
             HealthPotBut.Enabled = false;
             DexPotBut.Enabled = false;
             LuckPotBut.Enabled = false;
+            Next.Enabled = true;
         }
 
         private void DexPotBut_Click(object sender, EventArgs e)
@@ -91,6 +101,7 @@ namespace KalandJatekKockazat
             HealthPotBut.Enabled = false;
             DexPotBut.Enabled = false;
             LuckPotBut.Enabled = false;
+            Next.Enabled = true;
         }
 
         private void LuckPotBut_Click(object sender, EventArgs e)
@@ -101,7 +112,8 @@ namespace KalandJatekKockazat
             HealthPotBut.Enabled= false;
             DexPotBut.Enabled= false;
             LuckPotBut.Enabled=false;
-
+            Next.Enabled = true;
+            
         }
 
         private void Next_Click(object sender, EventArgs e)
@@ -109,6 +121,11 @@ namespace KalandJatekKockazat
             Jatek jatek = new Jatek();
             jatek.Show();
             Close();
+        }
+
+        private void HealthBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

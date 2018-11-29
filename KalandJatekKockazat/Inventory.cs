@@ -69,11 +69,31 @@ namespace KalandJatekKockazat
 
         private void UsePotion_Click(object sender, EventArgs e)
         {
-            if (StatNums.HealthPot < 0) StatNums.jatekos.Health = StatNums.KezdoErtek.KezdoHP;
-            if (StatNums.DexPot < 0) StatNums.jatekos.Dexterity = StatNums.KezdoErtek.KezdoDex;
-            if (StatNums.LuckPot < 0) StatNums.jatekos.Luck = StatNums.KezdoErtek.KezdoLuck;
+            if (StatNums.HealthPot > 0)
+            {
+                StatNums.jatekos.Health = StatNums.KezdoErtek.KezdoHP;
+                StatNums.HealthPot --;
+                PotionDb.Text = StatNums.HealthPot.ToString();
+            }
 
-            
+            if (StatNums.DexPot > 0)
+            {
+                StatNums.jatekos.Dexterity = StatNums.KezdoErtek.KezdoDex;
+                StatNums.DexPot--;
+                PotionDb.Text = StatNums.DexPot.ToString();
+            }
+            if (StatNums.LuckPot > 0)
+            {
+                StatNums.jatekos.Luck = StatNums.KezdoErtek.KezdoLuck;
+                StatNums.LuckPot--;
+                PotionDb.Text = StatNums.LuckPot.ToString();
+            }
+
+            if (StatNums.HealthPot == 0 && StatNums.DexPot == 0 && StatNums.LuckPot == 0)
+            {
+                PotionDb.Text = "0";
+                UsePotion.Enabled = false;
+            }
         }
     }
 }
